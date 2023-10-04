@@ -1,0 +1,31 @@
+.portfolio-main-image {
+    width: 100%;
+}
+
+.portfolio-under-image {
+    display: flex;
+    /* margin-bottom: 2rem; */
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.portfolio-under-image img {
+    width: 2rem;
+}
+
+.portfolio-languages {
+    display: flex;
+    gap: 1rem;
+}
+
+.portfolio-links {
+    display: flex;
+    gap: 1rem;
+    color: black;
+}
+
+.portfolio-link {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

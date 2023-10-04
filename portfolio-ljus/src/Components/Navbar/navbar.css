@@ -1,0 +1,42 @@
+.logo {
+    display: inline-block;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    width: 150px;
+    top: -150%;
+}
+
+.logo h3 {
+    font-size: 1rem;
+    color: black;
+}
+
+.top-nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    justify-content: space-between;
+}
+
+.nav-social a img {
+    width: 3rem;
+}
+.nav-social:nth-of-type(1) a img {
+    width: 2.5rem;
+}
+.nav-social:nth-of-type(2) a img {
+    width: 4.3rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    margin-right: 3rem;
+}
+
